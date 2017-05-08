@@ -93,7 +93,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 ## Getting Bootstrap
 
-* Download compiled (and minified) files from http://getbootstrap.com
+1. Download compiled (and minified) files from http://getbootstrap.com
 
   ```
   bootstrap/
@@ -112,7 +112,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
   | |—— glyphicons-halflings-regular.woff
   ```
 
-* Include Bootstrap from a CDN
+2. Include Bootstrap from a CDN
 
   ```html
   <!-- Latest compiled and minified CSS -->
