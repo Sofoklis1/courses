@@ -2,6 +2,7 @@
 
 Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
+
 ## Front-End Web UI Frameworks
 
 * **What is a front-end UI framework?**
@@ -25,6 +26,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
    * Pure
    * And many more...
 
+
 ## What is Bootstrap?
 
 * Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
@@ -38,12 +40,14 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 * Bootstrap also gives you the ability to easily create responsive designs.
   * Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops
 
+
 ## Bootstrap History
 
 * Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter, and released as an open source product in August 2011 on GitHub.
 * In June 2014 Bootstrap was the No.1 project on GitHub!
 * Currently in Version 3.3.7
  * Bootstrap 4 is coming (Currently v4.0.0-alpha.6)
+
 
 ## Why Use Bootstrap?
 
@@ -90,6 +94,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 * **Web-based customization**
 
 * **Open source**
+
 
 ## Getting Bootstrap
 
@@ -158,6 +163,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
   <script src="js/bootstrap.min.js"></script>
   ```
 
+
 ## Viewport
 
 ```html
@@ -168,6 +174,7 @@ The viewport meta tag:
 
 * Ensures that the screen width is set to the device width and the content is rendered with this width in mind
 * Designing the websites to be responsive to the size of the viewport
+
 
 ## Bootstrap's Grid System
 
@@ -399,6 +406,7 @@ See how aspects of the Bootstrap grid system work across multiple devices with a
 ![Example Grid Figure](images/example_grid.jpg)
 ---
 
+
 ## Bootstrap Typography
 
 ### Bootstrap's Default Settings
@@ -524,7 +532,9 @@ Class | Description
 `.list-unstyled` | Removes the default list-style and left margin on list items (works on both `<ul>` and `<ol>`). This class only applies to immediate children list items (to remove the default list-style from any nested lists, apply this class to any nested lists as well)
 `.list-inline` | Places all list items on a single line
 
+
 ## Bootstrap Tables
+
 
 ### Basic table
 
@@ -683,6 +693,7 @@ Create responsive tables by wrapping any `.table` in `.table-responsive` to make
  </div>
  ```
 
+
 ## Bootstrap Images
 
 ### `<img>` Classes
@@ -713,6 +724,7 @@ The `.img-responsive` class applies `max-width: 100%`, `height: auto`, and `disp
 ```html
 <img src="jsmith.jpg" class="img-responsive" alt="John Smith">
 ```
+
 
 ## Navbar
 
@@ -815,6 +827,7 @@ A standard navigation bar is created with `<nav class="navbar navbar-default">`.
      </div>
 </div>
 ```
+
 
 ## Bootstrap Buttons
 
@@ -977,6 +990,7 @@ Change the size of the well by adding the `.well-sm` class for small wells or  `
     Large Well
 </div>
 ```
+
 
 
 
