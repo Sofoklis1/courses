@@ -392,27 +392,27 @@ Bootstrap also has some alignment classes that can easily realign text to compon
 
 * `.text-center`: Indicates center-aligned text
 
- ```html
-   <p class="text-center">Center aligned text.</p>
-   ```
+  ```html
+  <p class="text-center">Center aligned text.</p>
+  ```
 
 * `.text-right`: Indicates right-aligned text
 
- ```html
-    <p class="text-right">Right aligned text.</p>
- ```
+  ```html
+  <p class="text-right">Right aligned text.</p>
+  ```
 
 * `.text-justify`: Indicates justified text
 
- ```html
-    <p class="text-justify">Justified text.</p>
- ```
+  ```html
+  <p class="text-justify">Justified text.</p>
+  ```
 
 * `.text-nowrap`: Indicates no wrap text
 
- ```html
-    <p class="text-nowrap">No wrap text.</p>
- ```
+  ```html
+  <p class="text-nowrap">No wrap text.</p>
+  ```
 
 ### Transformation classes
 
@@ -424,15 +424,15 @@ Bootstrap also has some alignment classes that can easily realign text to compon
 
 * `.text-uppercase`: Indicates uppercased text.
 
- ```html
+  ```html
    <p class="text-uppercase">Uppercased text.</p>
- ```
+  ```
 
 * `.text-capitalize`: Indicates capitalized text
 
- ```html
-    <p class="text-capitalize">Capitalized text.</p>
- ```
+  ```html
+  <p class="text-capitalize">Capitalized text.</p>
+  ```
 
 ### Contextual colors
 
