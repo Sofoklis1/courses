@@ -150,8 +150,8 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 * Include the JavaScript files at the bottom of the **\<body>** (**why?**)
 
-  ```javascript
-  <!–- jQuery library (necessary for Bootstrap's JavaScript plugins) -->
+  ```html
+  <!–- jQuery library (necessary for Bootstrap JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   <!–- Bootstrap core JavaScript -->
