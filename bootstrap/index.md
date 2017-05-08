@@ -267,6 +267,29 @@ First; create a row (`<div class="row">`). Then, add the desired number of colum
 
 **Note:** that numbers in `.col-*-*` should always add up to 12 for each row.
 
+#### Offsetting columns
+
+Move columns to the right using `.col-md-offset-*` classes. These classes increase the left margin of a column by `*` columns.
+
+For example, `.col-md-offset-4` moves `.col-md-4` over four columns.
+
+```html
+<div class="row">
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+</div>
+<div class="row">
+    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+</div>
+```
+
+![Offsetting columns Figure](images/col_offset.jpg)
+
+
 ### How Bootstrap Grid System works?
 
 Grid systems are used for creating page layouts through a series of rows and columns that house your content. Here's how the Bootstrap grid system works:
