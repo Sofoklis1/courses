@@ -95,7 +95,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 1. Download compiled (and minified) files from http://getbootstrap.com
 
-  ```
+   ```
   bootstrap/
   |—— css/
   | |—— bootstrap.css
@@ -110,7 +110,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
   | |—— glyphicons-halflings-regular.svg
   | |—— glyphicons-halflings-regular.O
   | |—— glyphicons-halflings-regular.woff
-  ```
+   ```
 
 2. Include Bootstrap from a CDN
 
