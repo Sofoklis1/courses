@@ -868,7 +868,7 @@ Bootstrap provides four button sizes. The classes that define the different size
 
 ## Bootstrap Panels and Wells
 
-* Some8mes you may wish to highlight some content on your website
+* Sometimes you may wish to highlight some content on your website
 * Panels and wells help
 
 ### Panels
