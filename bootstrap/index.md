@@ -258,7 +258,7 @@ Example code:
 * Rows act as horizontal grouping for columns
 * Rows must be inside containers (`.container` or `.container-fluid`)
 
-### Bootstrap Collumns - Grid Classes
+### <a name="gridclasses"></a>Bootstrap Collumns - Grid Classes
 
 Bootstrap 3 includes predefined grid classes for quickly making grid layouts for different types of devices like cell phones, tablets, laptops and desktops, etc.
 For example, you can use the `.col-xs-*` class to create grid columns for extra small devices like cell phones,
@@ -1100,10 +1100,126 @@ Change the size of the well by adding the `.well-sm` class for small wells or  `
 ```
 
 
+## Bootstrap Forms
 
 
+* Form controls automatically receive some global styling with Bootstrap.
+* All textual `<input>`, `<textarea>`, and `<select>` elements with `.form-control` are set to `width: 100%;` by default.
+* Wrap labels and controls in `.form-group` for optimum spacing.
+* Bootstrap provides three different types of form layouts:
+  * Vertical Form (default form layout)
+  * Horizontal Form
+  * Inline Form
+
+### Vertical Form (default)
+
+```html
+...
+<form action="..." method="...">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">Example block-level help text here.</p>
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox"> Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+...
+```
 
 
+**Preview in Browser:**
+
+
+![Bootstrap Forms - Figure](images/forms.jpg)
+
+
+### Inline Form
+
+
+* Add class `.form-inline` to the `<form>` element
+* In an inline form, all of the elements are inline, left-aligned, and the labels are alongside.
+  * **Note:** This only applies to forms within viewports that are at least `768px` wide!
+
+
+```html
+...
+<form class="form-inline" action="..." method="...">
+    <div class="form-group">
+        <label for="exampleInputName2">Name</label>
+        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail2">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+    </div>
+    <button type="submit" class="btn btn-primary">Send invitation</button>
+</form>
+...
+```
+
+
+**Preview in Browser:**
+
+![Bootstrap Forms inline - Figure](images/forms_inline.jpg)
+
+
+### Horizontal Form
+
+
+* In horizontal form layout labels are right aligned and floated to left to make them appear on the same line as form controls.
+* Add the class `.form-horizontal` to the `<form>` element.
+* Wrap labels and form controls in a `<div>` element and apply the class `.form-group`.
+  * Doing so changes `.form-groups` to behave as grid rows, so no need for `.row`.
+* Add the class `.control-label` to the `<label>` element.
+* Use Bootstrap's predefined  [grid classes](#gridclasses) to align labels and form controls.
+
+
+```html
+...
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Sign in</button>
+        </div>
+    </div>
+</form>
+...
+```
+
+
+**Preview in Browser:**
+
+![Bootstrap Forms Horizontal - Figure](images/form_horizontal.jpg)
 
 
 
