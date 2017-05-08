@@ -95,22 +95,22 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 1. Download compiled (and minified) files from http://getbootstrap.com
 
-  ```
-  bootstrap/
-  |—— css/
-  | |—— bootstrap.css
-  | |—— bootstrap.min.css
-  | |—— bootstrap-theme.css
-  | |—— bootstrap-theme.min.css
-  |—— js/
-  | |—— bootstrap.js
-  | |—— bootstrap.min.js
-  |—— fonts/
-  | |—— glyphicons-halflings-regular.eot
-  | |—— glyphicons-halflings-regular.svg
-  | |—— glyphicons-halflings-regular.O
-  | |—— glyphicons-halflings-regular.woff
-  ```
+   ```
+   bootstrap/
+   |—— css/
+   | |—— bootstrap.css
+   | |—— bootstrap.min.css
+   | |—— bootstrap-theme.css
+   | |—— bootstrap-theme.min.css
+   |—— js/
+   | |—— bootstrap.js
+   | |—— bootstrap.min.js
+   |—— fonts/
+   | |—— glyphicons-halflings-regular.eot
+   | |—— glyphicons-halflings-regular.svg
+   | |—— glyphicons-halflings-regular.O
+   | |—— glyphicons-halflings-regular.woff
+   ```
 
 2. Include Bootstrap from a CDN
 
