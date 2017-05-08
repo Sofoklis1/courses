@@ -735,6 +735,7 @@ Bootstrap provides an easy way to align media objects (like images or videos) to
 
 * Use a `<div>` element with the `.media` class to create a container for media objects.
 * Use the `.media-left` class to align the media object (image) to the left, or the `.media-right` class to align it to the right.
+  * **Note:** `media-right` `div` should be placed after `media-body` `div`
 * Text that should appear next to the image, is placed inside a container with `class="media-body"`.
 * Use `.media-heading` for headings.
 
@@ -780,6 +781,7 @@ Bootstrap provides an easy way to align media objects (like images or videos) to
 
 
 ![Bootstrap Media objects - Figure](images/media_object.jpg)
+
 
 
 ### Alignment of Media Objects
@@ -832,6 +834,58 @@ The media object can also be top, middle or bottom aligned with the `.media-top`
 **Preview in Browser:**
 
 ![Bootstrap Media Alignment - Figure](images/media_align.jpg)
+
+
+### Responsive Embeds
+
+Allow browsers to determine video or slideshow dimensions based on the width of their containing block by creating an intrinsic ratio that will properly scale on any device.
+
+* Class `.embed-responsive-item` can be applied directly to `<iframe>`, `<embed>`, `<video>`, and `<object>` elements.
+* Wrap in a `<div>` with `.embed-responsive` class
+  * Add `.embed-responsive-16by9` (16:9 aspect ratio) or `.embed-responsive-4by3` (4:3 aspect ratio) class
+
+    ```html
+    <!-- 16:9 aspect ratio -->
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="..."></iframe>
+    </div>
+
+    <!-- 4:3 aspect ratio -->
+    <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="..."></iframe>
+    </div>
+    ```
+
+
+**Example:**
+
+
+```html
+...
+<div class="row">
+
+    <div class="col-md-8">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gqOEoUR5RHg"></iframe>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    </div>
+
+</div>
+...
+```
+
+
+**Preview in Browser:**
+
+
+![Bootstrap Embed responsive - Figure](images/res_em.jpg)
 
 
 ## Navbar
