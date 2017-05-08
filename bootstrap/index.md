@@ -49,11 +49,11 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 * **Mobile first Responsive web design**
 
- * **Mobile first**
+  * **Mobile first**
 
     ![Mobile First Figure](images/mobile_first.jpg)
 
- * **Responsive web design**
+  * **Responsive web design**
 
    is a way of designing websites for Smaller Screens, and then progressively adjusts your design for devices with larger screens using **CSS Media Queries**
 
