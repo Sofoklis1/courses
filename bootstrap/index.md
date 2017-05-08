@@ -9,7 +9,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 * **Why front-end UI framework?**
   1. Responsive web design
-    * Mobile first
+     * Mobile first
   2. Cross-browser compatibility
    * Dealing with quirks of browsers
   3. Increased productivity
