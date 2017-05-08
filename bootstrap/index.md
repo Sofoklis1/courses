@@ -197,7 +197,7 @@ There are two container classes to choose from:
  <div class="container-fluid">
     ...
  </div>
- ```
+  ```
  * container for all the content of the site
  * provides a full width container, spanning the entire width of the viewport
  * use as the outermost div to wrap all the site content for the grid to work correctly
@@ -400,19 +400,19 @@ Bootstrap also has some alignment classes that can easily realign text to compon
 
  ```html
     <p class="text-right">Right aligned text.</p>
-    ```
+ ```
 
 * `.text-justify`: Indicates justified text
 
  ```html
     <p class="text-justify">Justified text.</p>
-    ```
+ ```
 
 * `.text-nowrap`: Indicates no wrap text
 
  ```html
     <p class="text-nowrap">No wrap text.</p>
-    ```
+ ```
 
 ### Transformation classes
 
@@ -426,13 +426,13 @@ Bootstrap also has some alignment classes that can easily realign text to compon
 
  ```html
    <p class="text-uppercase">Uppercased text.</p>
-   ```
+ ```
 
 * `.text-capitalize`: Indicates capitalized text
 
  ```html
     <p class="text-capitalize">Capitalized text.</p>
-    ```
+ ```
 
 ### Contextual colors
 
