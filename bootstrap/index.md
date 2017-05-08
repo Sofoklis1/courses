@@ -633,7 +633,7 @@ Class | Description
 
 **Render in Browser:**
 
-![Basic Table - Figure](images/table_classes.jpg)
+![Basic Table - Figure](images/table_classes.JPG)
 
 ### Responsive tables
 
