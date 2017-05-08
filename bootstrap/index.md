@@ -726,6 +726,114 @@ The `.img-responsive` class applies `max-width: 100%`, `height: auto`, and `disp
 ```
 
 
+
+## Bootstrap Media Objects
+
+
+Bootstrap provides an easy way to align media objects (like images or videos) to the left or to the right of some content.
+ This can be used to display blog comments, tweets and so on.
+
+* Use a `<div>` element with the `.media` class to create a container for media objects.
+* Use the `.media-left` class to align the media object (image) to the left, or the `.media-right` class to align it to the right.
+* Text that should appear next to the image, is placed inside a container with `class="media-body"`.
+* Use `.media-heading` for headings.
+
+**Example:**
+
+```html
+...
+<div class="row">
+    <div class="col-md-6">
+
+        <!-- Left-aligned media object -->
+        <div class="media">
+            <div class="media-left">
+                <img src="..." class="media-object" alt="...">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Left-aligned</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-6">
+
+        <!-- Right-aligned media object -->
+        <div class="media">
+            <div class="media-body">
+                <h4 class="media-heading">Right-aligned</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="media-right">
+                <img src="..." class="media-object" alt="...">
+            </div>
+        </div>
+
+    </div>
+</div>
+...
+```
+
+
+**Preview in Browser:**
+
+
+![Bootstrap Media objects - Figure](images/media_object.jpg)
+
+
+### Alignment of Media Objects
+
+The media object can also be top, middle or bottom aligned with the `.media-top` (default), `.media-middle` or `.media-bottom` class
+
+**Example:**
+
+```html
+...
+<div class="container">
+    <div class="media">
+        <div class="media-left media-top">
+            <img src="..." class="media-object" alt="...">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Media Top</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-middle">
+            <img src="..." class="media-object" alt="...">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Media Middle</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-bottom">
+            <img src="..." class="media-object" alt="...">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Media Bottom</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+</div>
+```
+
+**Preview in Browser:**
+
+![Bootstrap Media Alignment - Figure](images/media_align.jpg)
+
+
 ## Navbar
 
 A navigation bar is a navigation header that is placed at the top of the page.
@@ -994,7 +1102,7 @@ Change the size of the well by adding the `.well-sm` class for small wells or  `
 
 
 
-## Bootstrap Media Objects
+
 
 
 
