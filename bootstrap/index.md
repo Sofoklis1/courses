@@ -11,11 +11,11 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
   1. Responsive web design
      * Mobile first
   2. Cross-browser compatibility
-   * Dealing with quirks of browsers
+     * Dealing with quirks of browsers
   3. Increased productivity
-   * Easy to get started
+     * Easy to get started
   4. Community support
-   * Resources and web page templates, workarounds
+     * Resources and web page templates, workarounds
 
 * **Popular Front-End Web UI Frameworks**
    * Bootstrap
