@@ -193,12 +193,12 @@ There are two container classes to choose from:
 
 * The **.container-fluid** class:
 
-  ```html
+```html
  <div class="container-fluid">
     ...
  </div>
-  ```
-  
+ ```
+
  * container for all the content of the site
  * provides a full width container, spanning the entire width of the viewport
  * use as the outermost div to wrap all the site content for the grid to work correctly
