@@ -29,7 +29,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 * Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
- >From the Bootstrap webpage
+   >From the Bootstrap webpage
 
 * Bootstrap is a free front-end framework for faster and easier web development
 
