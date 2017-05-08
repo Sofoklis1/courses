@@ -289,6 +289,18 @@ For example, `.col-md-offset-4` moves `.col-md-4` over four columns.
 
 ![Offsetting columns Figure](images/col_offset.jpg)
 
+#### Column ordering
+
+Easily change the order of our built-in grid columns with `.col-md-push-*` and `.col-md-pull-*` modifier classes.
+
+```html
+<div class="row">
+    <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+    <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+</div>
+```
+
+![Ordering columns Figure](images/col_ordering.jpg)
 
 ### How Bootstrap Grid System works?
 
