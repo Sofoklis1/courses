@@ -173,7 +173,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 The viewport meta tag:
 
 * Ensures that the screen width is set to the device width and the content is rendered with this width in mind
-* Designing the websites to be responsive to the size of the viewport
+* Ensure proper rendering and touch zooming
 
 
 ## Bootstrap's Grid System
