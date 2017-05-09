@@ -1076,10 +1076,39 @@ Bootstrap provides four button sizes. The classes that define the different size
 
 ![Bootstrap Button classes - Figure](images/button_classes.jpg)
 
+
+## Glyphicons
+
+* Includes over 250 glyphs in font format from the `Glyphicon Halflings` set.
+* Glyphicons can be used in text, buttons, toolbars, navigation, forms, etc.
+* To use the Bootstrap icons you will require an `<span>` tag along with a base class `glyphicon` and an individual icon class `glyphicon-*`.
+
+  ```html
+  <!-- general syntax -->
+  <span class="glyphicon glyphicon-name"></span>
+  ```
+
+**Example:**
+
+```html
+<!-- icon in button -->
+<button type="submit" class="btn btn-success">
+    <span class="glyphicon glyphicon-search"></span> Search
+</button>
+```
+
+
+**Preview in Browser:**
+
+
+![Bootstrap Icon in button - Figure](images/icons.jpg)
+
+
 ## Bootstrap Panels and Wells
 
 * Sometimes you may wish to highlight some content on your website
 * Panels and wells help
+
 
 ### Panels
 
