@@ -1309,6 +1309,6 @@ Change the size of the well by adding the `.well-sm` class for small wells or  `
 
 ## References
 
-* [Bootstrap Official Documentation](http://getbootstrap.com)
-* [w3schools](https://www.w3schools.com/bootstrap/default.asp)
-* [tutorialrepublic](http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/)
+* [http://getbootstrap.com/](http://getbootstrap.com/)
+* [https://www.w3schools.com/bootstrap/default.asp](https://www.w3schools.com/bootstrap/default.asp)
+* [http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/index.php](http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/index.php)
