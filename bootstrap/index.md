@@ -59,7 +59,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
   * **Responsive web design**
 
-   is a way of designing websites for Smaller Screens, and then progressively adjusts your design for devices with larger screens using **CSS Media Queries**
+    is a way of designing websites for Smaller Screens, and then progressively adjusts your design for devices with larger screens using **CSS Media Queries**
 
    * **CSS Media Queries**
 
@@ -685,7 +685,7 @@ Class | Description
 Create responsive tables by wrapping any `.table` in `.table-responsive` to make them scroll horizontally on small devices (under 768px).
  When viewing on anything larger than 768px wide, you will not see any difference in these tables.
 
- ```htmml
+ ```html
  <div class="table-responsive">
    <table class="table">
      ...
