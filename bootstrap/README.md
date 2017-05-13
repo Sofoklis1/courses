@@ -751,25 +751,25 @@ You can also use Bootstrap's grid system in conjunction with the `.thumbnail` cl
 ...
 <div class = "row">
     <div class = "col-xs-6 col-md-3">
-	    <a href = "..." class = "thumbnail">
-		    <img src = "..." alt = "">
-		</a>
-	</div>
-	<div class = "col-xs-6 col-md-3">
-	    <a href = "..." class = "thumbnail">
-		    <img src = "..." alt = "">
-		</a>
-	</div>
-	<div class = "col-xs-6 col-md-3">
-	    <a href = "..." class = "thumbnail">
-		    <img src = "..." alt = "">
-		</a>
-	</div>
-	<div class = "col-xs-6 col-md-3">
-	    <a href = "..." class = "thumbnail">
-		    <img src = "..." alt = "">
-		</a>
-	</div>
+	<a href = "..." class = "thumbnail">
+		<img src = "..." alt = "">
+	</a>
+    </div>
+    <div class = "col-xs-6 col-md-3">
+	<a href = "..." class = "thumbnail">
+		<img src = "..." alt = "">
+	</a>
+    </div>
+    <div class = "col-xs-6 col-md-3">
+	<a href = "..." class = "thumbnail">
+		<img src = "..." alt = "">
+	</a>
+    </div>
+    <div class = "col-xs-6 col-md-3">
+	<a href = "..." class = "thumbnail">
+		<img src = "..." alt = "">
+	</a>
+    </div>
 </div>
 ...
 ```
