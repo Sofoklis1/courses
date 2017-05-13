@@ -1,6 +1,5 @@
 # Introduction to Bootstrap
 
-
 Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 
@@ -174,7 +173,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 The viewport meta tag:
 
 * Ensures that the screen width is set to the device width and the content is rendered with this width in mind
-* Ensures proper rendering and touch zooming
+* Designing the websites to be responsive to the size of the viewport
 
 
 ## Bootstrap's Grid System
@@ -726,6 +725,140 @@ The `.img-responsive` class applies `max-width: 100%`, `height: auto`, and `disp
 <img src="jsmith.jpg" class="img-responsive" alt="John Smith">
 ```
 
+
+### Thumbnails
+
+The Bootstrap `thumbnail` component is very useful for creating grids of images or videos, lists of products, portfolios, and much more.
+
+
+#### Default
+
+Add an `<a>` tag with the class of `.thumbnail` around an image.
+
+
+```html
+<a href="..." class="thumbnail">
+    <img src="..." alt="...">
+</a>
+```
+
+You can also use Bootstrap's grid system in conjunction with the `.thumbnail` class to create an image gallery.
+
+**Example:**
+
+
+```html
+...
+<div class = "row">
+    <div class = "col-xs-6 col-md-3">
+	    <a href = "..." class = "thumbnail">
+		    <img src = "..." alt = "">
+		</a>
+	</div>
+	<div class = "col-xs-6 col-md-3">
+	    <a href = "..." class = "thumbnail">
+		    <img src = "..." alt = "">
+		</a>
+	</div>
+	<div class = "col-xs-6 col-md-3">
+	    <a href = "..." class = "thumbnail">
+		    <img src = "..." alt = "">
+		</a>
+	</div>
+	<div class = "col-xs-6 col-md-3">
+	    <a href = "..." class = "thumbnail">
+		    <img src = "..." alt = "">
+		</a>
+	</div>
+</div>
+...
+```
+
+
+**Preview in Browser:**
+
+![Bootstrap Thumbnails - Figure](images/thumbnails.jpg)
+
+
+#### Custom content
+
+
+Add class `.thumbnail` to a `<div>`.
+
+With a bit of extra markup, it's possible to add any kind of HTML content like headings, paragraphs, or buttons into thumbnails:
+
+
+```html
+<div class="thumbnail">
+    <img src="..." alt="...">
+    <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p>
+            <a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a>
+        </p>
+    </div>
+</div>
+```
+
+
+**Example:**
+
+
+```html
+...
+<div class="row">
+
+    <div class="col-sm-3 col-xs-6">
+        <div class="thumbnail">
+          <img src = "..." alt = "...">
+          <div class="caption">
+            <h3>Dog</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p><a href="..." class="btn btn-primary" role="button"><span class="glyphicon glyphicon-link"></span> More</a></p>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-3 col-xs-6">
+        <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>Cat</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p><a href="..." class="btn btn-primary" role="button"><span class="glyphicon glyphicon-link"></span> More</a></p>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-3 col-xs-6">
+        <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>Rabit</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p><a href="..." class="btn btn-primary" role="button"><span class="glyphicon glyphicon-link"></span> More</a></p>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-3 col-xs-6">
+        <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>Tiger</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p><a href="..." class="btn btn-primary" role="button"><span class="glyphicon glyphicon-link"></span> More</a></p>
+          </div>
+        </div>
+    </div>
+
+</div>
+...
+```
+
+
+**Preview in Browser:**
+
+
+![Bootstrap Thumbnails & Grid- Figure](images/thumbs_grid.jpg)
 
 
 ## Bootstrap Media Objects
