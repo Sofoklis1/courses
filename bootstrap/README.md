@@ -3,6 +3,7 @@
 Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 
+
 ## Front-End Web UI Frameworks
 
 * **What is a front-end UI framework?**
@@ -751,25 +752,25 @@ You can also use Bootstrap's grid system in conjunction with the `.thumbnail` cl
 ...
 <div class = "row">
     <div class = "col-xs-6 col-md-3">
-	<a href = "..." class = "thumbnail">
-		<img src = "..." alt = "">
-	</a>
-    </div>
-    <div class = "col-xs-6 col-md-3">
-	<a href = "..." class = "thumbnail">
-		<img src = "..." alt = "">
-	</a>
-    </div>
-    <div class = "col-xs-6 col-md-3">
-	<a href = "..." class = "thumbnail">
-		<img src = "..." alt = "">
-	</a>
-    </div>
-    <div class = "col-xs-6 col-md-3">
-	<a href = "..." class = "thumbnail">
-		<img src = "..." alt = "">
-	</a>
-    </div>
+	    <a href = "..." class = "thumbnail">
+		    <img src = "..." alt = "">
+		</a>
+	</div>
+	<div class = "col-xs-6 col-md-3">
+	    <a href = "..." class = "thumbnail">
+		    <img src = "..." alt = "">
+		</a>
+	</div>
+	<div class = "col-xs-6 col-md-3">
+	    <a href = "..." class = "thumbnail">
+		    <img src = "..." alt = "">
+		</a>
+	</div>
+	<div class = "col-xs-6 col-md-3">
+	    <a href = "..." class = "thumbnail">
+		    <img src = "..." alt = "">
+		</a>
+	</div>
 </div>
 ...
 ```
@@ -1438,6 +1439,103 @@ Change the size of the well by adding the `.well-sm` class for small wells or  `
 
 ![Bootstrap Forms Horizontal - Figure](images/form_horizontal.jpg)
 
+
+## Project for Practise
+
+
+### Setting up your Development Environment
+
+
+#### Software Requirements
+
+* **Text editor**:
+
+  Any text editor that you are already familiar with can be used for editing the project files. In the Course I will use [ATOM](https://atom.io/) with `atom-bootstrap3` package installed.
+
+* **Browser**:
+
+  You may use your preferred browser. In the Course I will use [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/all/).
+
+
+#### Project files
+
+* Download the [Project Files](exercise/bootstrap-exercise.zip) and unzip it to a location in your computer, It will create a folder name: `bootstrap-exercise`.
+* Open the project folder `bootstrap-exercise` in ATOM
+
+
+#### Assignment
+
+During this assignment you will should use the page `template.html` as a base `template` in order to create the all the other pages (`index.html` and `laptop1.html`).
+
+All content text that you will need in the assignment is in the folder `page_text` (`home_text.txt` and `laptop1_text.txt`).
+
+* **Task 1:** Create Home page (`index.html`) and `Navigation Menu`
+
+  * Use `template.html` to create an html page with name: `index.html`
+  * Add menu items: `Products`, `About`, `Contact` and `Login` ([See Figure 1 bellow](#figure1))
+  * In `Products` Add submenu items: `Laptop`, `Mobile Phone`, `TV` and `Stereo` ([See Figure 2 bellow](#figure2))
+
+* **Task 2:** Add a `Jumbotron`
+
+  * Create a [Bootstrap Jumbotron](http://getbootstrap.com/components/#jumbotron) ([See Figure 1 bellow](#figure1))
+    * create a grid inside Jumbotron (1 row, 2 columns).
+      * In the left collumn `<div>` add `col-xs-12`, `col-sm-8` and `col-md-9` classes. The content text of the left column is in the text file `home_text.txt`.
+      * In the right collumn `<div>` add `col-xs-12`, `col-sm-4` and `col-md-3` classes. The image logo is `my_estore_logo.png`.
+
+
+* **Task 3:** Create product grid
+  * Use [Bootstap Thumbnail](http://getbootstrap.com/components/#thumbnails) component in order to present the Products ([See Figure 1 bellow](#figure1)).
+    * All the necessary images are in the folder `images`
+    * Text is in file `home_text.txt`
+
+
+* **Task 4:** Add Pagination
+  * Use [Bootstrap Pagination](http://getbootstrap.com/components/#pagination) component in order to add pagination to the page ([See Figure 1 bellow](#figure1))
+
+
+* **Task 5:** Create a Login Form
+  * Use [Bootstrap Forms](http://getbootstrap.com/css/#forms) to create the `login form`.
+  * When `Login` menu item is clicked the login form will appear inside a [Bootstrap Modal](http://getbootstrap.com/javascript/#modals) ([See Figure 3 bellow](#figure3))
+
+
+* **Task 6:** Create Product page `laptop1.html` and:
+  * Use `template.html` to create an html page with name: `laptop1.html` ([See Figure 4](#figure4) and [See Figure 5](#figure5) bellow).
+  * Use [Bootstrap Page header](http://getbootstrap.com/components/#page-header) component to add page title.
+  * Use [Bootstrap Media Object](http://getbootstrap.com/components/#media) component to present product.
+  * Use [Bootstrap Tables](http://getbootstrap.com/css/#tables) to present product details.
+  * Use image `laptop.png` and `laptop1_text.txt` for the content text.
+
+<a name="screenshots"></a>
+##### Screenshots
+
+
+<a name="figure1"></a>
+* **`Figure 1`**
+
+  ![Bootstrap Assignment - Figure 1](screenshots/home.png)
+
+<a name="figure2"></a>
+* **`Figure 2`**
+
+  ![Bootstrap Assignment - Figure 2](screenshots/home_menu.png)
+
+
+<a name="figure3"></a>
+* **`Figure 3`**
+
+  ![Bootstrap Assignment - Figure 3](screenshots/home_login_modal.png)
+
+
+<a name="figure4"></a>
+* **`Figure 4`**
+
+  ![Bootstrap Assignment - Figure 4](screenshots/laptop1.png)
+
+
+<a name="figure5"></a>
+* **`Figure 5`**
+
+  ![Bootstrap Assignment - Figure 5](screenshots/laptop1_menu_open.png)
 
 
 
