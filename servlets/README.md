@@ -263,7 +263,7 @@ Read more about the `request`:
 * [Interface HttpServletRequest](https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServletRequest.html)
 
 
-**Example:** Reading paramaeters from http request (login form above) and print them in a html page (Bootstrap):
+**Example:** Reading parameters from http request (login form above) and print them in a html page (Bootstrap):
 
 ```java
 package org.afdemp.bootcamp2.servlets;
@@ -395,7 +395,9 @@ Create a `Html` page with name `registrationform.html` and add a Bootstrap form 
 
 Create a Servlet with name `RegisterCustomer` that listens to the `/register` URL Path.
 
-The Servlet reads the data posted by the form of the page `registrationform.html` and prints all data in a Bootstrap table.
+The Servlet reads data posted by the form (of the page `registrationform.html`) and prints all data in a Bootstrap table as in the following figure:
+
+**RegisterCustomer Servlet Response:**
 
 ![RegisterCustomer Servlet Response - Figure](images/register_customer.jpg)
 
