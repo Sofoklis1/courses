@@ -575,8 +575,9 @@ Create a `Servlet` with name `RegisterCustomer`. `RegisterCustomer` does the fol
 
 ## References
 
-* [http://download.oracle.com/otndocs/jcp/servlet-3_1-fr-eval-spec/index.html)
-* [https://docs.oracle.com/javaee/7/tutorial/servlets.htm)
-* [https://www.tutorialspoint.com/servlets/index.htm)
-* [http://o7planning.org/en/10169/java-servlet-tutorial)
-* [http://docs.oracle.com/javaee/7/api/index.html)
+* [http://download.oracle.com/otndocs/jcp/servlet-3_1-fr-eval-spec/index.html](http://download.oracle.com/otndocs/jcp/servlet-3_1-fr-eval-spec/index.html)
+* [https://docs.oracle.com/javaee/7/tutorial/servlets.htm](https://docs.oracle.com/javaee/7/tutorial/servlets.htm)
+* [https://www.tutorialspoint.com/servlets/index.htm](https://www.tutorialspoint.com/servlets/index.htm)
+* [http://o7planning.org/en/10169/java-servlet-tutorial](http://o7planning.org/en/10169/java-servlet-tutorial)
+* [http://docs.oracle.com/javaee/7/api/index.html](http://docs.oracle.com/javaee/7/api/index.html)
+* [http://ism.dmst.aueb.gr/labExercises/](http://ism.dmst.aueb.gr/labExercises/)
