@@ -369,8 +369,131 @@ public class LoginHandler extends HttpServlet {
 **Add `Html` to `Servlet`**: [Useful Online Tool](http://ism.dmst.aueb.gr/labExercises/htmltoservlet.html)
 
 
+## Page Redirection
 
-## Project for Practise
+```java
+response.sendRedirect("location");
+```
+
+* The simplest way of redirecting a request to another page is using method `sendRedirect` of `response` object.
+* Sends a temporary redirect response to the client using the specified redirect location `URL` and clears the buffer.
+* `sendRedirect` is the method of [HttpServletResponse](https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServletResponse.html) interface which is used to redirect `response` to another resource, it may be `servlet`, `jsp` or `html` page.
+* If the location is relative without a leading **`/`** the container interprets it as relative to the current request `URI`.
+* If the location is relative with a leading **`/`** the container interprets it as relative to the `servlet container root`.
+
+```java
+...
+protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    if(request.getParameter("param1") == null) {
+        response.sendRedirect("error.jsp");
+        return;
+    }
+    ...
+}
+...
+```
+
+## Dispatch Request - `RequestDispatcher`
+
+* The `RequestDispacher` interface provides the facility to `forward` a request to another resource or `include` the content of another resource.
+* The resource can be dynamic (`servlet`, `jsp`) or static (`html`).
+* The `pathname` specified may be relative, although it cannot extend outside the current servlet context.
+* If the path begins with a **`/`** it is interpreted as relative to the current context root.
+
+`RequestDispacher` object can be get from `request` (`HttpServletRequest` object) via `getRequestDispatcher` Method.
+
+```java
+RequestDispatcher dispatcherName = request.getRequestDispatcher("location");
+```
+
+There are two methods defined in the [RequestDispatcher](https://docs.oracle.com/javaee/7/api/javax/servlet/RequestDispatcher.html) interface, `forward` and `include`.
+
+### `forward`
+
+* This method forwards a request from a servlet to another resource on the server.
+* This method allows one servlet to do preliminary processing of a request and another resource to generate the response.
+* `forward` should be called before the `response` has been committed to the client (before response body output has been flushed). If the `response` already has been committed, this method throws an `IllegalStateException`.
+
+**Example:**
+
+```java
+...
+RequestDispatcher errorDispatcher = request.getRequestDispatcher("/error");
+
+errorDispatcher.forward(request, response);
+```
+
+
+### `include`
+
+* Includes the content of a resource (`servlet`, `JSP` or `HTML` page) in the response. In essence, this method enables programmatic server-side includes.
+* response of second resource (`servlet`, `JSP` or `HTML` page)   is included in the response of the `servlet` that is being sent to the client.
+* In a `Servlet`, when `forward` to or `include` another resource (`servlet`, `JSP` or `HTML` page), the `request` object (client's request) is available to the resource too and parameters (user's data) can be read with the same way (`request.getParameter("paramater-name")`).
+
+**Example:**
+
+```java
+...
+RequestDispatcher pageHeader = request.getRequestDispatcher("header.jsp");
+
+pageHeader.include(request, response);
+```
+
+
+### `request`: Storing and Retrieving Attributes
+
+* Before we `forward` to or `include` another resource we can store an `attribute` (or more) in this request object via the `request.setAttribute` method. Then the attribute can be retrieved by the resource calling the `request.getAttribute` method.
+* `Attributes` are reset between requests.
+
+
+```java
+void setAttribute(String name, Object o) -> Stores an attribute in this request.
+```
+
+```java
+Object getAttribute(String name) -> Returns the value of the named attribute as an Object, or null if no attribute of the given name exists.
+```
+
+
+
+**Example:** Store an attribute with name `message` with value a `String`
+
+```java
+...
+RequestDispatcher errorDispatcher = request.getRequestDispatcher("/error");
+
+request.setAttribute("message", "You are not authorized to view this page")
+
+errorDispatcher.forward(request, response);
+```
+
+**Example:** Store an attribute with name `newcustomer` with value a `Customer` object
+
+```java
+...
+RequestDispatcher errorDispatcher = request.getRequestDispatcher("/error");
+
+Customer customer = new Customer("John", "Doe");
+
+request.setAttribute("newcustomer", customer)
+
+errorDispatcher.forward(request, response);
+```
+
+
+**Example:** Retrieving the attribute with name `newcustomer` from the other resource (`servlet`, or `jsp`)
+
+```java
+...
+Customer cust = (Customer) request.getAttribute("newcustomer");
+...
+```
+
+
+
+## Practise
+
+### Exercise 1
 
 #### Task 1
 
@@ -400,6 +523,53 @@ The Servlet reads data posted by the form (of the page `registrationform.html`) 
 **RegisterCustomer Servlet Response:**
 
 ![RegisterCustomer Servlet Response - Figure](images/register_customer.jpg)
+
+
+
+
+### Exercise 2
+
+
+#### Task 1
+
+Create a `Dynamic Web Project` in `Eclipse IDE` with name `servletcoursetwo`.
+
+#### Task 2
+
+Create a `Servlet` with name `CustomerForm` that (response) prints a customer registration form (Bootstrap) as in the figure bellow:
+
+![CustomerForm Servlet Response - Figure](images/customerform.jpg)
+
+When user submits the form (press `save` button) the data will be `post`ed to the `CustomerController` Servlet (**Task 3**)
+
+#### Task 3
+
+Create a `Servlet` with name `CustomerController`. `CustomerController` responses to the form of `CustomerForm` (**Task 2**) and do the following:
+ * Reads parameters (`name`, `surname` etc... fields of the form) from the request
+ * Checks data if valid (ex: fields: `name`, `surname` should be at least 2 chars length and `phone` at least 10 chars length)
+   * If data is valid:
+     * Creates a new `Customer` ([download class Customer](src/Customer.java)) object using user's data (form)
+     * Stores an attribute (to request object) with name `newcustomer` and value the new `Customer` object
+     * it forwards the request to the `RegisterCustomer` Servlet (**Task 4**)
+   * Otherwise, it redirects back to the `CustomerForm` Servlet
+
+#### Task 4
+
+Create a `Servlet` with name `RegisterCustomer`. `RegisterCustomer` does the following:
+
+* Retrieves `Customer` object from `request` object (attribute `newcustomer`)
+* Prints Customer's details ( `name`, `surname` etc...) in a bootstrap table
+
+**Preview Scenario**
+
+* `CustomerForm`: User inserts Customer data and press `save`
+
+  ![CustomerForm with user's data - Figure](images/customerform_userdata.jpg)
+
+* `RegisterCustomer` Respone
+
+  ![RegisterCustomer response - Figure](images/registercustomer.jpg)
+
 
 
 
