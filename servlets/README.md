@@ -579,8 +579,8 @@ Create a `Servlet` with name `RegisterCustomer`. `RegisterCustomer` does the fol
     **Import Project into Eclipse IDE**
     ```
     Step 1: Download it and uzip it to your computer . Then Copy the project's root folder (exampleproject1) into your Eclipse Workspace.
-    Step 2: Open Eclpise, File -> import, type project in the search bar and choose Existing Projects into Workspace and press next
-    Step 3: In field select root directory press Browse and select exampleproject1.
+    Step 2: Open Eclpise, File -> import, type project in the search bar and choose 'Existing Projects into Workspace' and press next
+    Step 3: In field 'select root directory' press 'Browse' and select exampleproject1.
     ```
 
   * [View Example Running online (Tomcat)](http://orfeas.dmst.aueb.gr/exampleproject1/search)
