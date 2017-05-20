@@ -574,7 +574,9 @@ Create a `Servlet` with name `RegisterCustomer`. `RegisterCustomer` does the fol
 
 
 ## Examples
-
+* Example Project 1
+  * [Download Eclipse Project](example/exampleproject1.zip)
+  * [View Example Running online (Tomcat)](http://orfeas.dmst.aueb.gr/exampleproject1/search)
 * [http://ism.dmst.aueb.gr/labExercises/](http://ism.dmst.aueb.gr/labExercises/)
 
 
