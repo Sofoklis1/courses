@@ -40,4 +40,5 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 * [Package java.sql](https://docs.oracle.com/javase/8/docs/api/index.html?java/sql/package-summary.html)
 * [https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-examples.html](https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-examples.html)
+* [https://www.javatpoint.com/java-jdbc](https://www.javatpoint.com/java-jdbc)
 * [https://www.tutorialspoint.com/jdbc/index.htm](https://www.tutorialspoint.com/jdbc/index.htm)
