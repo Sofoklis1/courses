@@ -26,6 +26,9 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
     Step 4: Fix 'Java Build Path' according to your system settings: Right click to the project (exampleproject2) and select 'Properties', from the left choose `Java Build Path` and click Tab 'Libraries' and ensure that 'Apache Tomcat' and 'JRE System Library' are according to your system settings.
     ```
 
+  * Connect to your MySQL Server and to do the following:
+    * Create a `database` and a `user` with full privileges for only this database
+    * Create table `employee` and insert records ([employee.sql](examples/employee.sql))
   * [View this Example Running online (Tomcat)](http://orfeas.dmst.aueb.gr/exampleproject2/search)
 
 ### Online Examples
