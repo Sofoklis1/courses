@@ -33,3 +33,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 * [http://ism.dmst.aueb.gr/labExercises/](http://ism.dmst.aueb.gr/labExercises/)
 
 
+## Useful Links
+
+* [Package java.sql](https://docs.oracle.com/javase/8/docs/api/index.html?java/sql/package-summary.html)
+* [https://www.tutorialspoint.com/jdbc/index.htm](https://www.tutorialspoint.com/jdbc/index.htm)
