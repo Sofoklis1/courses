@@ -108,6 +108,12 @@ Modify the Servlet `ViewCustomers` so as to print in a table (Bootstrap) all Cus
 
 ![ViewCustomers - print customers](images/customerform4.png)
 
+## Exercise in class
+
+* [Exercise Pdf](exercises/exercise_bootcamp.pdf)
+* [Download Eclipse Project](exercises/bootcamp2-inclass-exercise1.zip)
+* [Download Database Table](exercises/exercise1_student.sql)
+
 
 ## Useful Links
 
