@@ -38,4 +38,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 * [Download Eclipse Project](exercises/bootcamp2-project-4.zip)
 * [student_table](exercises/student_table.sql) & [user_table](exercises/user_table.sql)
 
+### Exercise 2
 
+* [Exercise Pdf](exercises/jsp_exercise2.pdf)
+* [View solution Running online (Tomcat)](http://orfeas.dmst.aueb.gr/bootcamp2-project-5/register.jsp)
