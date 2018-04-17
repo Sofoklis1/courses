@@ -1465,7 +1465,7 @@ Change the size of the well by adding the `.well-sm` class for small wells or  `
 
 #### Assignment
 
-During this assignment you will should use the page `template.html` as a base `template` in order to create the all the other pages (`index.html` and `laptop1.html`).
+During this assignment you will should use the page `template.html` as a base `template` in order to create all other pages (`index.html` and `laptop1.html`).
 
 All content text that you will need in the assignment is in the folder `page_text` (`home_text.txt` and `laptop1_text.txt`).
 
@@ -1477,32 +1477,32 @@ All content text that you will need in the assignment is in the folder `page_tex
 
 * **Task 2:** Add a `Jumbotron`
 
-  * Create a [Bootstrap Jumbotron](http://getbootstrap.com/components/#jumbotron) ([See Figure 1 bellow](#figure1))
+  * Create a [Bootstrap Jumbotron](https://getbootstrap.com/docs/3.3/components/#jumbotron) ([See Figure 1 bellow](#figure1))
     * create a grid inside Jumbotron (1 row, 2 columns).
       * In the left collumn `<div>` add `col-xs-12`, `col-sm-8` and `col-md-9` classes. The content text of the left column is in the text file `home_text.txt`.
       * In the right collumn `<div>` add `col-xs-12`, `col-sm-4` and `col-md-3` classes. The image logo is `my_estore_logo.png`.
 
 
 * **Task 3:** Create product grid
-  * Use [Bootstap Thumbnail](http://getbootstrap.com/components/#thumbnails) component in order to present the Products ([See Figure 1 bellow](#figure1)).
+  * Use [Bootstap Thumbnail](https://getbootstrap.com/docs/3.3/components/#thumbnails) component in order to present the Products ([See Figure 1 bellow](#figure1)).
     * All the necessary images are in the folder `images`
     * Text is in file `home_text.txt`
 
 
 * **Task 4:** Add Pagination
-  * Use [Bootstrap Pagination](http://getbootstrap.com/components/#pagination) component in order to add pagination to the page ([See Figure 1 bellow](#figure1))
+  * Use [Bootstrap Pagination](https://getbootstrap.com/docs/3.3/components/#pagination) component in order to add pagination to the page ([See Figure 1 bellow](#figure1))
 
 
 * **Task 5:** Create a Login Form
-  * Use [Bootstrap Forms](http://getbootstrap.com/css/#forms) to create the `login form`.
-  * When `Login` menu item is clicked the login form will appear inside a [Bootstrap Modal](http://getbootstrap.com/javascript/#modals) ([See Figure 3 bellow](#figure3))
+  * Use [Bootstrap Forms](https://getbootstrap.com/docs/3.3/css/#forms) to create the `login form`.
+  * When `Login` menu item is clicked the login form will appear inside a [Bootstrap Modal](https://getbootstrap.com/docs/3.3/javascript/#modals) ([See Figure 3 bellow](#figure3))
 
 
 * **Task 6:** Create Product page `laptop1.html` and:
   * Use `template.html` to create an html page with name: `laptop1.html` ([See Figure 4](#figure4) and [See Figure 5](#figure5) bellow).
-  * Use [Bootstrap Page header](http://getbootstrap.com/components/#page-header) component to add page title.
-  * Use [Bootstrap Media Object](http://getbootstrap.com/components/#media) component to present product.
-  * Use [Bootstrap Tables](http://getbootstrap.com/css/#tables) to present product details.
+  * Use [Bootstrap Page header](https://getbootstrap.com/docs/3.3/components/#page-header) component to add page title.
+  * Use [Bootstrap Media Object](https://getbootstrap.com/docs/3.3/components/#media) component to present product.
+  * Use [Bootstrap Tables](https://getbootstrap.com/docs/3.3/css/#tables) to present product details.
   * Use image `laptop.png` and `laptop1_text.txt` for the content text.
 
 <a name="screenshots"></a>
