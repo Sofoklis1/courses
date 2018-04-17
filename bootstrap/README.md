@@ -1,4 +1,4 @@
-# Introduction to Bootstrap
+# Introduction to Bootstrap 3
 
 Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
@@ -47,7 +47,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 * Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter, and released as an open source product in August 2011 on GitHub.
 * In June 2014 Bootstrap was the No.1 project on GitHub!
 * Currently in Version 3.3.7
-  * Bootstrap 4 is coming (Currently v4.0.0-alpha.6)
+  * Bootstrap 4 is here (Currently v4.0.0)
 
 
 ## Why Use Bootstrap?
