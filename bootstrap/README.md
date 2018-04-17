@@ -99,7 +99,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 ## Getting Bootstrap
 
-1. Download compiled (and minified) files from http://getbootstrap.com
+1. Download compiled (and minified) files from http://getbootstrap.com/docs/3.3/getting-started/#download
 
    ```
    bootstrap/
