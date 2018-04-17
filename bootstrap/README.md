@@ -1541,6 +1541,6 @@ All content text that you will need in the assignment is in the folder `page_tex
 
 ## References
 
-* [http://getbootstrap.com/](http://getbootstrap.com/)
+* [https://getbootstrap.com/docs/3.3/](https://getbootstrap.com/docs/3.3/)
 * [https://www.w3schools.com/bootstrap/default.asp](https://www.w3schools.com/bootstrap/default.asp)
 * [http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/index.php](http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/index.php)
