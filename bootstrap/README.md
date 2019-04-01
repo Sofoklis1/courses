@@ -99,7 +99,7 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
 ## Getting Bootstrap
 
-1. Download compiled (and minified) files from http://getbootstrap.com/docs/3.3/getting-started/#download
+1. Download compiled (and minified) files from http://getbootstrap.com/docs/3.4/getting-started/#download
 
    ```
    bootstrap/
@@ -122,13 +122,13 @@ Author: [Sofoklis Stouraitis](mailto:sofos@aueb.gr)
 
    ```html
    <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
    <!-- jQuery (necessary for Bootstraps javaScript plugins) -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
    <!-- Latest compiled javaScript -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
    ```
 
 
@@ -226,7 +226,7 @@ Example code:
         <title>Sample Template for Bootstrap</title>
 
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -242,7 +242,7 @@ Example code:
 
         <!-- JavaScript files before the closing body tag -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </body>
 </html>
 ```
@@ -342,7 +342,7 @@ See how aspects of the Bootstrap grid system work across multiple devices with a
 
         <title>Sample Template for Bootstrap</title>
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
         <!-- Adding some custom style to page -->
         <style type="text/css">
@@ -397,7 +397,7 @@ See how aspects of the Bootstrap grid system work across multiple devices with a
 
         <!-- JavaScript files before the closing body tag -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </body>
 </html>
 ```
@@ -1541,6 +1541,6 @@ All content text that you will need in the assignment is in the folder `page_tex
 
 ## References
 
-* [https://getbootstrap.com/docs/3.3/](https://getbootstrap.com/docs/3.3/)
+* [https://getbootstrap.com/docs/3.4/](https://getbootstrap.com/docs/3.4/)
 * [https://www.w3schools.com/bootstrap/default.asp](https://www.w3schools.com/bootstrap/default.asp)
 * [http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/index.php](http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/index.php)
